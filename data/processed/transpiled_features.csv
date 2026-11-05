@@ -1,0 +1,41 @@
+circuit_id,backend_name,original_num_qubits,status,error_message,transpiled_num_qubits,depth,num_gates,single_qubit_gates,two_qubit_gates,gate_composition,cx_count,sx_count,rz_count,x_count,output_file
+GHZ_3,fake_manila,3,success,,5,5,5,3,2,"{""rz"": 2, ""sx"": 1, ""cx"": 2}",2,1,2,0,data\transpiled\GHZ_3__fake_manila.qpy
+GHZ_3,fake_lima,3,success,,5,5,5,3,2,"{""rz"": 2, ""sx"": 1, ""cx"": 2}",2,1,2,0,data\transpiled\GHZ_3__fake_lima.qpy
+GHZ_3,fake_athens,3,success,,5,5,5,3,2,"{""rz"": 2, ""sx"": 1, ""cx"": 2}",2,1,2,0,data\transpiled\GHZ_3__fake_athens.qpy
+GHZ_3,fake_belem,3,success,,5,5,5,3,2,"{""rz"": 2, ""sx"": 1, ""cx"": 2}",2,1,2,0,data\transpiled\GHZ_3__fake_belem.qpy
+GHZ_5,fake_manila,5,success,,5,7,7,3,4,"{""rz"": 2, ""sx"": 1, ""cx"": 4}",4,1,2,0,data\transpiled\GHZ_5__fake_manila.qpy
+GHZ_5,fake_lima,5,success,,5,10,10,3,7,"{""rz"": 2, ""sx"": 1, ""cx"": 7}",7,1,2,0,data\transpiled\GHZ_5__fake_lima.qpy
+GHZ_5,fake_athens,5,success,,5,7,7,3,4,"{""rz"": 2, ""sx"": 1, ""cx"": 4}",4,1,2,0,data\transpiled\GHZ_5__fake_athens.qpy
+GHZ_5,fake_belem,5,success,,5,10,10,3,7,"{""rz"": 2, ""sx"": 1, ""cx"": 7}",7,1,2,0,data\transpiled\GHZ_5__fake_belem.qpy
+QFT_3,fake_manila,3,success,,5,24,30,18,12,"{""rz"": 15, ""sx"": 3, ""cx"": 12}",12,3,15,0,data\transpiled\QFT_3__fake_manila.qpy
+QFT_3,fake_lima,3,success,,5,24,30,18,12,"{""rz"": 15, ""sx"": 3, ""cx"": 12}",12,3,15,0,data\transpiled\QFT_3__fake_lima.qpy
+QFT_3,fake_athens,3,success,,5,24,30,18,12,"{""rz"": 15, ""sx"": 3, ""cx"": 12}",12,3,15,0,data\transpiled\QFT_3__fake_athens.qpy
+QFT_3,fake_belem,3,success,,5,24,30,18,12,"{""rz"": 15, ""sx"": 3, ""cx"": 12}",12,3,15,0,data\transpiled\QFT_3__fake_belem.qpy
+QFT_5,fake_manila,5,success,,5,57,95,45,50,"{""rz"": 40, ""sx"": 5, ""cx"": 50}",50,5,40,0,data\transpiled\QFT_5__fake_manila.qpy
+QFT_5,fake_lima,5,success,,5,59,86,45,41,"{""rz"": 40, ""sx"": 5, ""cx"": 41}",41,5,40,0,data\transpiled\QFT_5__fake_lima.qpy
+QFT_5,fake_athens,5,success,,5,57,95,45,50,"{""rz"": 40, ""sx"": 5, ""cx"": 50}",50,5,40,0,data\transpiled\QFT_5__fake_athens.qpy
+QFT_5,fake_belem,5,success,,5,59,86,45,41,"{""rz"": 40, ""sx"": 5, ""cx"": 41}",41,5,40,0,data\transpiled\QFT_5__fake_belem.qpy
+RANDOM_3_100,fake_manila,3,success,,5,18,25,19,6,"{""sx"": 7, ""rz"": 12, ""cx"": 6}",6,7,12,0,data\transpiled\RANDOM_3_100__fake_manila.qpy
+RANDOM_3_100,fake_lima,3,success,,5,18,25,19,6,"{""sx"": 7, ""rz"": 12, ""cx"": 6}",6,7,12,0,data\transpiled\RANDOM_3_100__fake_lima.qpy
+RANDOM_3_100,fake_athens,3,success,,5,18,25,19,6,"{""sx"": 7, ""rz"": 12, ""cx"": 6}",6,7,12,0,data\transpiled\RANDOM_3_100__fake_athens.qpy
+RANDOM_3_100,fake_belem,3,success,,5,18,25,19,6,"{""sx"": 7, ""rz"": 12, ""cx"": 6}",6,7,12,0,data\transpiled\RANDOM_3_100__fake_belem.qpy
+RANDOM_3_202,fake_manila,3,success,,5,9,19,17,2,"{""rz"": 11, ""cx"": 2, ""sx"": 6}",2,6,11,0,data\transpiled\RANDOM_3_202__fake_manila.qpy
+RANDOM_3_202,fake_lima,3,success,,5,9,19,17,2,"{""rz"": 11, ""cx"": 2, ""sx"": 6}",2,6,11,0,data\transpiled\RANDOM_3_202__fake_lima.qpy
+RANDOM_3_202,fake_athens,3,success,,5,9,19,17,2,"{""rz"": 11, ""cx"": 2, ""sx"": 6}",2,6,11,0,data\transpiled\RANDOM_3_202__fake_athens.qpy
+RANDOM_3_202,fake_belem,3,success,,5,9,19,17,2,"{""rz"": 11, ""cx"": 2, ""sx"": 6}",2,6,11,0,data\transpiled\RANDOM_3_202__fake_belem.qpy
+RANDOM_3_42,fake_manila,3,success,,5,33,55,43,12,"{""rz"": 28, ""sx"": 15, ""cx"": 12}",12,15,28,0,data\transpiled\RANDOM_3_42__fake_manila.qpy
+RANDOM_3_42,fake_lima,3,success,,5,33,55,43,12,"{""rz"": 28, ""sx"": 15, ""cx"": 12}",12,15,28,0,data\transpiled\RANDOM_3_42__fake_lima.qpy
+RANDOM_3_42,fake_athens,3,success,,5,33,55,43,12,"{""rz"": 28, ""sx"": 15, ""cx"": 12}",12,15,28,0,data\transpiled\RANDOM_3_42__fake_athens.qpy
+RANDOM_3_42,fake_belem,3,success,,5,33,55,43,12,"{""rz"": 28, ""sx"": 15, ""cx"": 12}",12,15,28,0,data\transpiled\RANDOM_3_42__fake_belem.qpy
+RANDOM_5_100,fake_manila,5,success,,5,23,50,28,22,"{""sx"": 7, ""cx"": 22, ""rz"": 20, ""x"": 1}",22,7,20,1,data\transpiled\RANDOM_5_100__fake_manila.qpy
+RANDOM_5_100,fake_lima,5,success,,5,21,47,28,19,"{""rz"": 20, ""sx"": 7, ""cx"": 19, ""x"": 1}",19,7,20,1,data\transpiled\RANDOM_5_100__fake_lima.qpy
+RANDOM_5_100,fake_athens,5,success,,5,23,50,28,22,"{""rz"": 20, ""sx"": 7, ""cx"": 22, ""x"": 1}",22,7,20,1,data\transpiled\RANDOM_5_100__fake_athens.qpy
+RANDOM_5_100,fake_belem,5,success,,5,21,47,28,19,"{""rz"": 20, ""sx"": 7, ""cx"": 19, ""x"": 1}",19,7,20,1,data\transpiled\RANDOM_5_100__fake_belem.qpy
+RANDOM_5_202,fake_manila,5,success,,5,9,29,27,2,"{""rz"": 17, ""sx"": 10, ""cx"": 2}",2,10,17,0,data\transpiled\RANDOM_5_202__fake_manila.qpy
+RANDOM_5_202,fake_lima,5,success,,5,9,29,27,2,"{""rz"": 17, ""sx"": 10, ""cx"": 2}",2,10,17,0,data\transpiled\RANDOM_5_202__fake_lima.qpy
+RANDOM_5_202,fake_athens,5,success,,5,9,29,27,2,"{""rz"": 17, ""cx"": 2, ""sx"": 10}",2,10,17,0,data\transpiled\RANDOM_5_202__fake_athens.qpy
+RANDOM_5_202,fake_belem,5,success,,5,9,29,27,2,"{""rz"": 17, ""sx"": 10, ""cx"": 2}",2,10,17,0,data\transpiled\RANDOM_5_202__fake_belem.qpy
+RANDOM_5_42,fake_manila,5,success,,5,38,64,52,12,"{""x"": 1, ""rz"": 32, ""sx"": 19, ""cx"": 12}",12,19,32,1,data\transpiled\RANDOM_5_42__fake_manila.qpy
+RANDOM_5_42,fake_lima,5,success,,5,38,64,52,12,"{""x"": 1, ""rz"": 32, ""cx"": 12, ""sx"": 19}",12,19,32,1,data\transpiled\RANDOM_5_42__fake_lima.qpy
+RANDOM_5_42,fake_athens,5,success,,5,38,64,52,12,"{""rz"": 32, ""cx"": 12, ""sx"": 19, ""x"": 1}",12,19,32,1,data\transpiled\RANDOM_5_42__fake_athens.qpy
+RANDOM_5_42,fake_belem,5,success,,5,38,64,52,12,"{""x"": 1, ""rz"": 32, ""cx"": 12, ""sx"": 19}",12,19,32,1,data\transpiled\RANDOM_5_42__fake_belem.qpy
