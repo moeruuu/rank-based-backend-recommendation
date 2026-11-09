@@ -1,0 +1,21 @@
+name: quantum-project
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  - pip:
+      - qiskit
+      - qiskit-aer
+      - qiskit-ibm-runtime
+      - streamlit
