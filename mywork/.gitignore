@@ -3,6 +3,9 @@
 venv/
 env/
 
+.quantum/
+quantum/
+
 # Python cache
 __pycache__/
 *.py[cod]

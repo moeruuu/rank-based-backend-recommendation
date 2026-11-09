@@ -1,0 +1,2 @@
+num_circuits,spearman_rho,kendall_tau,top1_accuracy,top2_hit,precision_at_2,mrr,ndcg_at_2,ndcg_at_all
+10,0.12000000000000002,0.13333333333333333,0.5,0.6,0.4,0.675,0.9909130468752858,0.9975093631707616
